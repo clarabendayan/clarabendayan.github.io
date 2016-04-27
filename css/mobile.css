@@ -1,0 +1,112 @@
+@media (max-width: 320px) {
+
+body {
+  font-size: 20px;
+  font-family: "josefin sans", sans-serif;
+  max-width: 320px;
+}
+
+#container {
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+#indexhome img {
+  width: 300px;
+  height: 283px;
+  margin: 0 auto;
+}
+
+#articles img {
+  width: 300px;
+  height: 120px;
+  margin: 0 auto;
+}
+
+#adcampaigns img {
+  width: 300px;
+  height: 120px;
+  margin: 0 auto;
+}
+
+#branding img {
+  width: 300px;
+  height: 120px;
+  margin: 0 auto;
+}
+
+#contact img {
+  width: 300px;
+  height: 120px;
+  margin: 0 auto;
+}
+
+#name img {
+  width: 40px;
+  height: 38px;
+}
+
+footer img{
+  display: none;
+}
+
+nav {
+  margin-bottom: 2px;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+ul li {
+  padding-bottom: 2px;
+}
+
+#articles main img {
+  width: 250px;
+  height: 194px;
+  margin: 0 auto;
+}
+
+.pdfs {
+  width: 200px;
+  height: 157px;
+  margin: 0 auto;
+}
+
+p {
+  display: block;
+  font-size: 14px;
+  padding-bottom: 12px;
+  width: 200px;
+  padding-left: 14px;
+}
+
+#adcampaigns main img {
+  width: 200px;
+  height: 157px;
+  margin: 0 auto;
+}
+
+#branding main img {
+  width: 200px;
+  height: 153px;
+  margin: 0 auto;
+}
+
+#branding .pdfs {
+  width: 200px;
+  height: 153px;
+  margin: 0 auto;
+}
+
+#contact main img {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  display: list-item;
+}
+
+.farmshare {
+  width: 200px;
+  padding: 0;
+  margin-left: 0;
+}

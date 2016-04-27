@@ -1,135 +1,15 @@
-@import url(https://fonts.googleapis.com/css?family=Libre+Baskerville);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans);
 
-/* general styles */
-
-title {
-  display: none;
-}
-
-header {
-  font-size: 26px;
-  font-family: "baskerville", sans-serif;
-  color: #222; /* light black! */
-  text-align: center;
-}
 
 body {
-  font-size: 14px;
-  font-family: "baskerville", sans-serif;
-  color: #222;
-  margin: 0;
-  padding: 0;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: justify;
-  width: 720px;
+  font-family: "josefin sans", sans-serif;
+  font-size: 16px;
   display: block;
-}
-
-address {
-  text-align: center;
-  font-size: 14px;
-  padding-bottom: 4px;
-  align-content: center;
-}
-
-h1 {
-  color: #6483b3;
-}
-
-h2 {
-  letter-spacing: 0.1em;
-  font-size: 24px;
-  color: #90a9d2;
-}
-
-h3 {
-  font-style: italic;
-  font-size: 16.5px;
-}
-
-section {
-  padding-bottom: 15px;
-}
-
-div {
-  display: inline-block;
-  padding-top: 30px;
-  width: 940px;
-  margin: 0 auto;
-}
-
-footer {
-  clear: both;
-  text-align: center;
-  font-size: 14px;
-  padding-top: 60px;
-}
-
-em {
-  font-size: 14px;
-}
-
-/* id styles */
-
-#container {
-  max-width: 960px;
-  overflow: auto;
-  padding: 10px;
-}
-
-#leftcolumn {
-  float: left;
-  border-right: 1px dotted #90a9d2; /* pantone serenity (periwinkle purple/blue) */
-  max-width: 440px;
-  margin-right: 10px;
-  padding-right: 3px;
-  overflow: auto;
-}
-
-#rightcolumn {
-  float: right;
-  border-left: 1px dotted #90a9d2; /* pantone serenity (periwinkle purple/blue) */
-  max-width: 440px;
-  margin-right: 20px;
-  padding-right: 20px;
-  padding-left: 3px;
-  overflow: auto
-}
-
- #work {
-  clear: both;
-  width: 960px;
-  padding-left: 10px;
-  padding-top: 20px;
-}
-
-#education {
-  padding-top: 30px;
-  padding-right: 10px;
-  text-align: right;
-}
-
-#skills {
-  padding-left: 10px;
-  padding-top: 30px;
-}
-
-#languages {
-  padding-top: 20px;
-  padding-right: 10px;
-  text-align: right;
-}
-
-/* class styles */
-
-.clear {
-  clear: both;
 }
 
 /* link styles */
 
-a:link,a:hover,a:visited,a:active {
+a:link,a:visited,a:hover,a:active {
   text-decoration: none;
 }
 
@@ -137,31 +17,139 @@ a:link {
   color: #90a9d2; /* pantone serenity (periwinkle purple/blue) */
 }
 
-a:hover {
-  color: #f4cbc7; /* pantone rose quartz (dusty pink) */
-}
-
 a:visited {
   color: #bdc8db; /* lighter version of periwinkle link color */
+}
+
+a:hover {
+  color: #f4cbc7; /* pantone rose quartz (dusty pink) */
 }
 
 a:active {
   color: #bed5bb; /* pastel green */
 }
 
+.hover {
+  width: 200px;
+  height: 200px;
+  background: #fff;
+  transition: background 1s ease-in;
+  margin-bottom: 10px;
+  margin-right: 4px;
+}
+
+a {
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+
+/* overall styles */
+
+header {
+  font-family: "josefin sans", sans-serif;
+  font-size: 16px;
+  display: block;
+}
+
+footer {
+  padding-top: 40px;
+  padding-right: 60px;
+  margin-top: 40px;
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  font-size: 12px;
+}
+
+img {
+  margin-bottom: 20px;
+}
+
+/* might need this
+div image {
+  width: 800px;
+}
+*/
+
+/* id styles */
+
+#indexhome #name {
+  width: 450px;
+  margin: 0 auto;
+}
+
+#name2 {
+  width: 450px;
+  margin: 0 auto;
+}
+
+#container #img {
+  width: 800px;
+  margin: 0 auto;
+}
+
+#container {
+  margin: 0 auto;
+  width: 930px;
+  max-width: 960px;
+  min-width: 320px;
+  overflow: auto;
+  padding: 10px;
+}
+
+/* class styles */
+
+.topbar {
+  padding-top: 10px;
+  padding-bottom: 80px;
+  margin-left: 38px;
+  padding-left: 150px;
+  width: 500px;
+}
+
+.pdfs {
+  width: 400px;
+  padding-bottom: 60px;
+  padding-right: 60px;
+  float: left
+}
+
+p {
+  display: none;
+}
+
+.farmshare {
+  width: 400px;
+  padding-bottom: 60px;
+  padding-right: 60px;
+  margin-left: 232.5px;
+}
+
 /* navigation styles */
 
 nav {
-  padding-top: 30px;
-  padding-bottom: 50px;
-  width: 100px;
   display: inline;
   text-align: center;
-  margin-bottom: 10px;
+  font-family:, sans-serif;
+  padding-right: 10px;
+  margin-right: 40px;
 }
+
 
 nav li {
   display: inline;
-  padding-right: 10px;
-  margin-right: 10px;
+  padding-right: 20px;
+  padding-top: 20px;
+  margin-right: 20px;
+  font-family: "josefin sans", sans-serif;
+  font-size: 24px;
+  padding-top: 20px;
+}
+
+ul {
+  padding-right: 60px;
+  padding-top: 20px;
 }
